@@ -37,6 +37,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "time3517-cloudflare-33"
+          project: "aicoin"
           entrypoint: "server/index.ts"
           root: ".output"
